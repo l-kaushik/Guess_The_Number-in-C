@@ -10,7 +10,7 @@ int main()
 	while (i != 1)
 	{
 		turn++;
-		printf("press 1234 to exti\nGuess the computer's number:- ");
+		printf("press 1234 to exit\nGuess the computer's number:- ");
 		check = scanf("%d", &input);
 		getchar();
 		printf("\n");

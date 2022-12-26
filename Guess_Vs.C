@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-#include <conio.h>
 
 int main()
 {
 	int i = 0, com, input, turn = 0, check = 1;
-    clrscr();
 	srand(time(NULL));
 	com = (int)rand() % 100;
 	while (i != 1)
@@ -20,6 +18,7 @@ int main()
 		{
 			printf("Please make sure you enter a number\n");
 			fflush(stdin);
+
 		}
 		else if (input == 1234)
 		{
@@ -45,6 +44,6 @@ int main()
 		}
 		printf("\n");
 	}
-    getch();
+
 	return 0;
 }

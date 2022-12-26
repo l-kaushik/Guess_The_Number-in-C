@@ -15,7 +15,7 @@ Guess the number is player vs computer game. The computer will guess a number an
 ## Dependencies
 * If you are going to use vs code IDE, then download Guess_Vs.C.
 * And if you are going to use Turbo C/C++ IDE, then download Guess_Turbo.C.
-* I have not tried it in other IDEs, so not sure about them, but Guess_Vs.Cwill work fine.
+* I have not tried it in other IDEs, so not sure about them, but Guess_Vs.C will work fine.
 
 ## Keep in mind
 * This program can still stuck in an infinte loop, if user input character instead of numbers. But to prevent that I have use "fflush(stdin);" to clear the input buffer.

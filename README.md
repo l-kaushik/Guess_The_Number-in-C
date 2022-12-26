@@ -18,7 +18,7 @@ Guess the number is player vs computer game. The computer will guess a number an
 * I have not tried it in other IDEs, so not sure about them, but GUESS.C will work fine.
 
 ## Keep in mind
-* This program can still stuck in an infinte loop, if user input character instead of numbers. But because of this program is meant to be begginner friendly. I am gonna cover it in another programs.
+* This program can still stuck in an infinte loop, if user input character instead of numbers. But to prevent that I have use "fflush(stdin);" to clear the input buffer.
 
 ## Installing
 * Just simply download the file according to your need as explained above.
